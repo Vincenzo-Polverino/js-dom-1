@@ -17,8 +17,14 @@ buttonEl.addEventListener('click', () => {
 //ripeto la funzione per invertire il procedimento
     buttonEl.addEventListener('click', () => {
 
+       if(buttonEl.innerText === 'Accendi') {
+        lampEl.innerHTML = '<img src="./img/yellow_lamp.png">'
+        buttonEl.innerText = 'Spegni'
+    } else{
+
         lampEl.innerHTML = '<img src="./img/white_lamp.png">'
         buttonEl.innerText = 'Accendi'
+    }
 
     });
 });
