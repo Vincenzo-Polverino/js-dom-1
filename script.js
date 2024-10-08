@@ -12,5 +12,7 @@ buttonEl.addEventListener('click', () => {
 lampEl.innerHTML = 
 // inserisco il link all'immagine alternativa
 '<img src="./img/yellow_lamp.png">'
+//cambio testo del pulsante una volta "accesa" la lampadina
+buttonEl.innerText = 'Spegni'
 
 });
